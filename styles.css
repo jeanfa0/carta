@@ -102,19 +102,20 @@ html, body {
   position: absolute;
   border-radius: 50%;
   pointer-events: none;
+  opacity: 0.18;
 }
 
 .s1-deco-1 {
-  width: 420px; height: 420px;
-  top: -120px; right: -100px;
-  background: radial-gradient(circle, rgba(107,174,214,0.22) 0%, transparent 70%);
+  width: 320px; height: 320px;
+  top: -80px; right: -80px;
+  background: var(--blue);
   animation: float-orb 10s ease-in-out infinite;
 }
 
 .s1-deco-2 {
-  width: 280px; height: 280px;
-  bottom: -80px; left: -70px;
-  background: radial-gradient(circle, rgba(184,150,78,0.16) 0%, transparent 70%);
+  width: 200px; height: 200px;
+  bottom: -60px; left: -60px;
+  background: var(--gold);
   animation: float-orb 10s ease-in-out infinite reverse;
   animation-delay: -5s;
 }
@@ -570,5 +571,5 @@ html, body {
   .letter-wrap   { padding: 28px 20px; border-radius: 16px; }
   .reveal-title  { padding: 22px 20px; border-radius: 14px; }
   .btn           { padding: 14px 26px; font-size: 0.88rem; }
-                   }
+                        }
    
